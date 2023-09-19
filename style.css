@@ -1,22 +1,15 @@
 .text {
  white-space: pre-line
  }
-.butt {
-  margin-top: 70px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
  
 }
-.nImg {
+.img {
 
-  width: 100px,
-  height: 200px
+  width: 100px;
+  height: 200px;
 }
 }
