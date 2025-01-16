@@ -32,8 +32,8 @@ function myfunc() {
     let timePerLetter = 10,
       text = document.createTextNode("");
 
-    document.getElementById("test").appendChild(text);
-    document.getElementById("test").style.color = "red";
+    document.getElementById("running-text").appendChild(text);
+    document.getElementById("running-text").style.color = "red";
     document.body.style.backgroundColor = "white";
 
     function printOut(str) {
@@ -46,7 +46,7 @@ function myfunc() {
           setTimeout(function () {
             text.nodeValue = ""; 
             location.reload(); 
-          }, 400);
+          }, 3000);
       })();
     }
 
